@@ -94,7 +94,7 @@ $(document).ready(function() {
 	});
 
 
-    const nav = $("#navigation");
+	const nav = $("#navigation");
 	const navTop = nav.offset().top;
 
 	$(window).on("scroll", stickyNavigation);
